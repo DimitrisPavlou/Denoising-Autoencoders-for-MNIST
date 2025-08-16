@@ -1,2 +1,8 @@
-# Denoising-Autoencoders-for-MNIST
-The goal of this project was to create two types of denoising autoencoders, one MLP and one Convolutional autoencoders and train them to denoise hand written digits from the MNIST dataset
+# Denoising Autoencoders for MNIST  
+
+This project implements two types of denoising autoencoders for the MNIST dataset of handwritten digits:  
+
+- **MLP-based autoencoder**  
+- **Convolutional autoencoder**  
+
+Both models are trained to remove noise from corrupted digit images, effectively learning how to reconstruct clean digits.  
